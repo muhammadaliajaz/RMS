@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAFAFB] text-[#2D2D2D] antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer components {
+
+  /* Exact Soft Shadow from Screenshot */
+  .shadow-smart {
+    box-shadow: 0px 10px 45px -10px rgba(0, 0, 0, 0.06);
+  }
+
+  .sidebar-active {
+    background: #FFC107;
+    box-shadow: 0px 8px 20px -6px rgba(255, 193, 7, 0.4);
+  }
+}
